@@ -86,3 +86,9 @@ function exibirResultado(sorteio) {
         listaResultado.appendChild(li);
     });
 }
+
+        li.textContent = `${par.amigo} → ${par.sorteado}`;
+        listaResultado.appendChild(li);
+    });
+}
+
