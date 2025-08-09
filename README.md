@@ -6,10 +6,11 @@
 ---
 
 ### Features
-🎁Add participants easily with just one click.
-🎄Festive Christmas design with holiday colors and a decorative GIF banner.
-🔀Randomized Secret Santa draw ensuring fair matches.
-📱Remove participants if you need to update the list.
+
+- 🎁Add participants easily with just one click.
+- 🎄Festive Christmas design with holiday colors and a decorative GIF banner.
+- 🔀Randomized Secret Santa draw ensuring fair matches.
+- 📱Remove participants if you need to update the list.
 
 ### Tech Stack
 ![HTML](https://img.shields.io/badge/HTML%20-%208A2BE2?logo=html5&logoColor=red&logoSize=auto&color=black)
