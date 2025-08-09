@@ -10,3 +10,5 @@ As funcionalidades presentes são:
 ✔ Remover participantes individualmente
 ✔ Garantir que ninguém tire a si mesmo no sorteio
 ✔ Exibir o resultado do sorteio na tela
+
+https://amigo-secreto-sable-phi.vercel.app/
