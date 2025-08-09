@@ -1,0 +1,156 @@
+:root {
+    --color-primary: #ffffff;
+    --color-secondary: #530600;
+    --color-tertiary: #550707;
+    --color-button: #043b37;
+    --color-button-hover: #ffffff;
+    --color-text: #f7f0f0;
+    --color-white: #f8f3f3fa;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-tertiary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner com GIF de fundo */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url("assets/christmasgif.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main-title {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+/* Seção de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 1px solid #000;
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Títulos */
+.section-title {
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Entrada + Botão */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+.button-container {
+    width: 300px;
+    justify-content: center;
+}
+
+/* Botões */
+button {
+    padding: 15px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0 25px 25px 0;
+}
+
+.button-add:hover {
+    background-color: #a1a1a1;
+}
+
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+
+.button-draw img {
+    margin-right: 40px;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #05DF05;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
